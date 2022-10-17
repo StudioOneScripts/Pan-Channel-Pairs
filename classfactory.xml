@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ClassFactory>
+	<ScriptClass
+		classID="{C235D6CE-BB42-5AB3-9134-DA824DC7450A}"
+		category="EditTask"
+		subCategory="TrackEdit"
+		name="Pan Channel Pairs"
+		sourceFile="code.js"
+		functionName="createInstance">
+		<Attribute id="menuPriority" value="0"/>
+	</ScriptClass>
+</ClassFactory>
