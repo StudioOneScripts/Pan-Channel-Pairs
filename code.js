@@ -7,7 +7,7 @@
 		return Host.Results.kResultOk;
 	}
 
-	// -----------------------------------------------------------------
+	// ------  OPPOSITE PAN CONSECUTIVE SELECTED MIXER CHANNELS --------
 
 	this.performEdit = function (context)
 	{
@@ -20,9 +20,9 @@
 				var channel = channelList.getSelectedChannel(i)
 				
 				if (i % 2 == 0)
-					channel.pan = 1;
+					channel.pan = 1;  // pan left
 				else
-					channel.pan = 0;
+					channel.pan = 0;  // pan right
 			}
 
 		return Host.Results.kResultOk;
