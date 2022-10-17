@@ -1,3 +1,3 @@
 # Pan Channel Pairs
 
-This function automatically hard pans selected mixer channels Left and Right in series
+This function automatically pans selected mixer channels fully Left and Right in series
