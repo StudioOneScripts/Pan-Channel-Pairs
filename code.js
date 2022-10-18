@@ -11,7 +11,6 @@
 
 	this.performEdit = function (context)
 	{
-		// opposite pan pairs of selected channels
 		var environment = context.functions.root.environment;
 		var console = environment.find ("MixerConsole");
 		var channelList = console.getChannelList(1);
