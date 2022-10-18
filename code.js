@@ -17,7 +17,6 @@
 		var channelList = console.getChannelList(1);
 
 		for(i=0;i < channelList.numSelectedChannels; i++)
-<<<<<<< HEAD
 		{ 
 			var channel = channelList.getSelectedChannel(i)
 	
@@ -26,16 +25,6 @@
 			else					// even 	
 				channel.pan = 0;  	// right
 		}
-=======
-			{
-				var channel = channelList.getSelectedChannel(i)
-				
-				if (i % 2 == 0)
-					channel.pan = 1;  // pan left
-				else
-					channel.pan = 0;  // pan right
-			}
->>>>>>> 70a0ac73325086da3f7fc242f68795347f270831
 
 		return Host.Results.kResultOk;
 	}
